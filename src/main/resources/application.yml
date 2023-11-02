@@ -1,0 +1,6 @@
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: auditevents,health,shutdown,env,info,flowable,refresh
